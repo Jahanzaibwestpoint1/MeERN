@@ -1,8 +1,10 @@
+//State Name Define
 export const LOADING_STATE = 'LOADING_STATE';
 export const GET_ALL_TASKS = 'GET_ALL_TASKS';
 export const ADD_TASK = "ADD_TASK";
 export const UPDATE_LIST_ITEM = "UPDATE_LIST_ITEM"
 
+//main States variables to get by thier name
 const intialize_state = {
     loadingState: false,
     getData: [],
@@ -10,6 +12,7 @@ const intialize_state = {
     updateListItem: []
 }
 
+//Main Reducer's File to get update thier controller 
 const ShoppingListsReducers = (state = intialize_state, action) => {
     switch (action.type) {
         case LOADING_STATE:

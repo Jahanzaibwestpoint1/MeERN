@@ -1,8 +1,10 @@
+//Actions File, All Action declared here
 import axios from "axios";
 import { ADD_TASK, GET_ALL_TASKS, LOADING_STATE, UPDATE_LIST_ITEM } from "./Reducer"
 import { BASE_URL, endPoints } from "./Api";
 
 
+//Getting All List of item form DB
 export const handleAllShoppingList = () => {
     return async (dispatch) => {
         dispatch({ type: LOADING_STATE, payload: true })
@@ -20,6 +22,7 @@ export const handleAllShoppingList = () => {
 }
 
 
+//Used To add New Item in list
 export const handleAddItem = (data, navigate) => {
     return async (dispatch) => {
         dispatch({ type: LOADING_STATE, payload: true })
@@ -45,7 +48,7 @@ export const handleAddItem = (data, navigate) => {
 }
 
 
-
+//Used for deleting item from List
 export const handleDeleteListItem = (id) => {
     return async (dispatch) => {
         dispatch({ type: LOADING_STATE, payload: true })
@@ -63,7 +66,7 @@ export const handleDeleteListItem = (id) => {
 }
 
 
-
+//used for update current values 
 export const handleUpdateItem = (data, navigate,id) => {
     return async (dispatch) => {
         dispatch({ type: LOADING_STATE, payload: true })
@@ -88,7 +91,7 @@ export const handleUpdateItem = (data, navigate,id) => {
 }
 
 
-
+//Deisgn to update Status of item
 export const handleUpdateItemStatus = (data,id) => {
     return async (dispatch) => {
         dispatch({ type: LOADING_STATE, payload: true })

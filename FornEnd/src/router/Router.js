@@ -4,6 +4,7 @@ import AddItem from "../pages/Item/AddItemPage";
 import EditItem from "../pages/Item/EditItemPage";
 import HomePage from "../pages/Home/HomePage";
 
+//All Router Are add here with thier paths
 
 const RouterDiver = () => {
     return(
