@@ -1,0 +1,112 @@
+.mainHeader {
+    background-color: #4D81B7;
+    margin: 0px;
+    padding: 2rem;
+}
+
+.title {
+    font-family: Dosis;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #fff;
+}
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+
+}
+
+.sec-container {
+    width: 38rem;
+    height: 18rem;
+    border-radius: 5px;
+    border: 1px solid #C6C6C6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.error-msg {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #87898C;
+}
+
+
+.data-continer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sub-coantiner {
+    width: 52%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.value-container {
+    width: 60rem;
+    height: 5.438rem;
+    border: 1px solid #D5DFE9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 2rem;
+    margin-bottom: 10px;
+}
+
+.first-subcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-continer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.heading-title {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1.3038520263464193e-9px;
+    color: #000000;
+}
+
+.description {
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -1.3038520263464193e-9px;
+    color: #7D7A7A;
+}
+
+.your-item {
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -1.3038520263464193e-9px;
+
+}
