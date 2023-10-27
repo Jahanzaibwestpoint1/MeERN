@@ -36,7 +36,7 @@ const HomePage = () => {
                 </DialogTitle>
                 <DialogContent>
                     <DialogContentText id="alert-dialog-description">
-                        Are you sure you want to delete this item? This can not be undone.
+                      {"Are you sure you want to delete this item? This can not be undone."}
                     </DialogContentText>
                 </DialogContent>
                 <DialogActions>
