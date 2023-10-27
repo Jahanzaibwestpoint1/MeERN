@@ -4,4 +4,4 @@ Full Stack project
 # --> use npm i (FornEnd directory/Folder)
 # --> use npm i (server directory/Folder)
 # --> use run devStart (To run server)
-# --> use start (To run FrontEnd )
+# --> use npm start (To run FrontEnd )
