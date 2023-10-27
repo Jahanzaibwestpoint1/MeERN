@@ -93,6 +93,7 @@ export const handleUpdateItem = (data, navigate,id) => {
 
 //Deisgn to update Status of item
 export const handleUpdateItemStatus = (data,id) => {
+
     return async (dispatch) => {
         dispatch({ type: LOADING_STATE, payload: true })
         const currentStatus = data ? false :true;
