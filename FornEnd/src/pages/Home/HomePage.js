@@ -11,7 +11,6 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 import Stack from '@mui/material/Stack';
-import { async } from "q";
 import { useDispatch, useSelector } from "react-redux";
 import { handleAllShoppingList, handleDeleteListItem, handleUpdateItemStatus } from "../../store/Action";
 import ReactLoading from 'react-loading';
