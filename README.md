@@ -1,7 +1,7 @@
 # MeERN
 Full Stack project
 # --> use git clone
-# --> use npm i (FornEnd Direcotry/Foldr)
-# --> use npm i (FornEnd Direcotry/server)
+# --> use npm i (FornEnd directory/Foldr)
+# --> use npm i (FornEnd directory/Folder)
 # --> use run devstart (To run server)
 # --> use start (To run FrontEnd )
