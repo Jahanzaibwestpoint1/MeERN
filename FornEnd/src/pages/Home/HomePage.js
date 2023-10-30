@@ -35,7 +35,7 @@ const HomePage = () => {
                 </DialogTitle>
                 <DialogContent>
                     <DialogContentText id="alert-dialog-description">
-                      {"Are you sure you want to delete this item? This can not be undone."}
+                        {"Are you sure you want to delete this item? This can not be undone."}
                     </DialogContentText>
                 </DialogContent>
                 <DialogActions>
@@ -54,16 +54,19 @@ const HomePage = () => {
             </Dialog>
         )
     }
-    
+
     return (
         <>
+
             {openModal()}
             <HomeHeader title={"SHOPPIN LIST"} />
             {listData?.loadingState ?
                 <div className="data-continer">
                     <div style={{ marginTop: '4%' }}>
                         <ReactLoading type={'spin'} color={"blue"} height={50} width={50} />
+                        
                     </div>
+                   
                 </div>
                 :
                 <>
@@ -100,8 +103,8 @@ const HomePage = () => {
                                                         setSelecId(item)
                                                         setOpen(true)
                                                     }}
-                                                    changeStatus={()=>{
-                                                        dispatch(handleUpdateItemStatus(item.item_status,item?.id))
+                                                    changeStatus={() => {
+                                                        dispatch(handleUpdateItemStatus(item.item_status, item?.id))
                                                     }}
                                                 />
                                             </div>

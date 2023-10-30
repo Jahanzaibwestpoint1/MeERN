@@ -11,3 +11,21 @@ export const endPoints = {
     updateItem:'update-list',
     updateItemStatus:'update-liststatus'
 }
+
+
+// EXTRA_CODE
+// <h1>{word.split(' ').map((item) => {
+//     if (item.startsWith('@')) {
+//       return <span style={{color:'red'}}>{` ${item}` }</span>
+//     }
+//     else if(item.startsWith('#')){
+//       return <span style={{color:'blue'}}>{` ${item}` }</span>
+//     }
+//     else if(item.startsWith('%')){
+//       return <span style={{color:'olivedrab'}}>{` ${item}` }</span>
+//     }
+//     else{
+//       return <span style={{color:'GrayText'}}>{` ${item}`}</span>
+//     }
+//   })}</h1>
+  

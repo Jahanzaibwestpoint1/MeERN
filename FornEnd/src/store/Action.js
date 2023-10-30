@@ -1,3 +1,4 @@
+
 //Actions File, All Action declared here
 import axios from "axios";
 import { ADD_TASK, GET_ALL_TASKS, LOADING_STATE, UPDATE_LIST_ITEM } from "./Reducer"
@@ -9,7 +10,8 @@ export const handleAllShoppingList = () => {
     return async (dispatch) => {
         dispatch({ type: LOADING_STATE, payload: true })
         try {
-            axios.get(`${BASE_URL.mainUrl}${endPoints.getLists}`).then((res) => {
+            axios.get(`${BASE_URL.mainUrl}${endPoints.getLists}`)
+            .then((res) => {
                 dispatch({ type: GET_ALL_TASKS, payload: res.data })
                 dispatch({ type: LOADING_STATE, payload: false })
             }).catch((err) => {
